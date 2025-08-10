@@ -1,0 +1,73 @@
+ 
+.detalle-entidad-img {
+  max-height: 400px;
+}
+
+.tarjeta-entidad {
+  width: 400px;
+}
+.tarjeta-entidad-img {
+  object-fit: contain;
+  width: 400px;
+  height: 400px;
+}
+ 
+.navbar-logo {
+  height: 60px;
+  object-fit: contain;
+}
+
+.navbar-dropdown-menu {
+  min-width: 220px;
+}
+
+.card {
+  position: relative;
+}
+
+.boton-favorito {
+  position: absolute;
+  bottom: 1.4rem;
+  right: 1.4rem;
+  width: 3.4rem;
+  height: 3rem;
+  border: 2px solid rgb(255, 225, 0);
+  border-radius: 10%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.boton-favorito i{
+  font-size: 1.5rem;
+  line-height: 1;
+  color: rgb(255, 208, 0);
+}
+.boton-favorito:hover{
+  background-color: rgb(255, 208, 0);
+}
+.boton-favorito:hover i{
+  color: black;
+}
+.boton-favorito.activo {
+  background-color: white;
+  color: rgb(249, 212, 0);
+}
+.boton-favorito.activo:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+.limpiar-subrayado-hover:hover {
+  background-color: #f0f8ff00; 
+  text-decoration: underline ;
+  cursor: pointer;
+}
+
+.limpiar-subrayado{
+  text-decoration: none;
+}
+
